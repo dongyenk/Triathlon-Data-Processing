@@ -1,3 +1,10 @@
+/* This program also takes input about triathlon atheletes, before outputting useful processed information, for as long as the user provides data.
+* The diffrence with this one is, that it exits, if the user enters a negative number for swim hours :)
+* The first check for this condition, happens in a for loop, within a for loop, within the while loop.
+* A break statement here would not exit the program, just the loop in its scope. I defined a boolean variable, that is checked in 
+* if statements, to determine if the other loops should be broken too.
+*/
+
 int handle_and_return_input(){
   while( !Serial.available() ){ // inverse of Serial.available() evaluates as true
     // while loop of doing nothing, while there's no data in the serial port, and Serial.available() evaluates as false
@@ -48,7 +55,7 @@ void setup(){
       for( byte time_index = 0; time_index < time_types_or_total_index; time_index ++ ){
         Serial.print( swim_bike_run_total_strings[ event_index ] + " " + hr_min_sec_time_types[ time_index ] + ": " );
         
-        int user_input = handle_and_return_input(); // Convert value to seconds, using different processes, depending on time_index/time type asked for ( hr-min-sec )
+        int user_input = handle_and_return_input(); // Convert input value to seconds, using different processes, depending on time_index/time type asked for ( hr-min-sec )
         // assigning input to variable, so I can check if it's negative, when user inputs value for swim hours
         if( event_index == swim_or_hours_index && time_index == swim_or_hours_index && user_input < 0 ){
           negative_input = 1;             // EXIT THE PROGRAM, WHEN USER ENTERS NEGATIVE NUMBER FOR SWIM HOURS
@@ -69,7 +76,7 @@ void setup(){
             seconds_to_add_on = 0;      
             break;
         }
-        swim_bike_run_total_seconds[ event_index ] += seconds_to_add_on;
+        swim_bike_run_total_seconds[ event_index ] += seconds_to_add_on; // I tried it with this line in the switch block, but it didn work :/
         
         Serial.println();
       }// END OF FOR TIME LOOP // asking about hr-min-sec of an event by 1 athelete
@@ -79,10 +86,10 @@ void setup(){
       Serial.println();
     }// END OF EVENT FOR LOOP // End of loop asking about 1 athelete, and their hr-min-sec for swim-bike-run /
     
-    if( negative_input ){
+    if( negative_input ){ // bool data type stores a true or false, and a 1 or 0
       Serial.println();
       Serial.println("Program Exited :)");
-      break; // breaks while loop
+      break; // breaks while loop // exits program
     }
 
     calculate_total_seconds( swim_bike_run_total_seconds, time_types_or_total_index );
