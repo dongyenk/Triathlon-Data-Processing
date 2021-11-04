@@ -1,7 +1,7 @@
 /* This program also takes input about triathlon atheletes, before outputting useful processed information, for as long as the user provides data.
 * The diffrence with this one is, that it exits, if the user enters a negative number for swim hours :)
 * The first check for this condition, happens in a for loop, within a for loop, within the while loop.
-* A break statement here would not exit the program, just the loop in its scope. I defined a boolean variable, that is checked in 
+* A break statement here would not exit the program, just the loop in its scope. I defined a boolean variable, in the scope of all the loops, that is checked in 
 * if statements, to determine if the other loops should be broken too.
 */
 
