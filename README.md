@@ -11,3 +11,7 @@ E.g. "01_data_processing.ino", will have the oldest code I typed, and just be an
 __**FILE TYPES**__
 ----------------------
 .ino files are programs made in the Arduino IDE, that require the IDE, and an Arduino, to compile.
+
+__**COMMENTS AT THE TOP OF SOURCE FILES**__
+-------------------------------
+At the top of the source files, will be comments, explaining what that program does.
