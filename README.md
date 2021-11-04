@@ -9,7 +9,7 @@ File names will begin with 2 numbers.
 E.g. "01_data_processing.ino", will have the oldest code I typed, and just be an improved version of a program I made in a class. And, "17_data_processing.ino", will be a more recent program, that I did in my own time, that uses more of my self study knowledge.
 
 If a source file, has a header (.h) file, with a name beginning with the same 2 numbers, that source file needs the header file!!.
-	E.g. "02_data_processing.ino" must be in same directory as "02_my_functions.h"
+		E.g. "02_data_processing.ino" must be in same directory as "02_my_functions.h"
 
 
 __**FILE TYPES**__
