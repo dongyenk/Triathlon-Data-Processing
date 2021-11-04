@@ -6,7 +6,7 @@ __**INTRODUCTION**__
 __**FILE NAMES**__
 ---------------------
 File names will begin with 2 numbers.
-E.g. "01_data_processing.ino", will have the oldest code I typed, and just be an improved version of a program I made in a class. End, "17_data_processing.ino", will be a more recent program, that I did in my own time.
+E.g. "01_data_processing.ino", will have the oldest code I typed, and just be an improved version of a program I made in a class. And, "17_data_processing.ino", will be a more recent program, that I did in my own time, that uses more of my self study knowledge.
 
 __**FILE TYPES**__
 ----------------------
