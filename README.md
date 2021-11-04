@@ -10,7 +10,7 @@ E.g. "01_data_processing.ino", will have the oldest code I typed, and just be an
 
 __**FILE TYPES**__
 ----------------------
-.ino files are programs made in the Arduino IDE, that require the IDE, and an Arduino, to compile.
+.ino files are programs made in the Arduino IDE, that require the IDE, and an Arduino, to compile. The Arduino IDE serial monitor can't handle input, unless "no line ending" is selected.
 
 __**COMMENTS AT THE TOP OF SOURCE FILES**__
 -------------------------------
