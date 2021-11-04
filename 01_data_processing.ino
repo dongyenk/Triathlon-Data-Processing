@@ -1,5 +1,5 @@
 /* This program allows the user to input triathlon time result data about atheletes.
-* Once the user has input the hr-min-sec time values for an athelete, the program will output processed data about the athelete, in a nice format.
+* Once the user has input the hr-min-sec time values for a triathlon athelete, the program will output processed data about the athelete, in a nice format.
 * Once data for 1 athelete has been entered, the program prompts for input on the next.
 * In a university class, I made basically the same program, but in my free time, I experimented with, and improved the code.
 * The next version of this program, will allow the user to exit, by inputting a negative number, for swim hours.
