@@ -1,3 +1,10 @@
+/* As with the first program, this takes triathlon data input, and outputs useful processed data, as long as the user inputs data.
+* The main difference is that the program now exits, when the user inputs a negative number for swim hours.
+* Another big difference, is the storage of my functions, in a separate header file, and the use of preprocessor directives, for debugging purposes.
+* I learned about programs using multiple files, with Python, then I learned about header files in C++.
+* In my free time, I experimented with icorporating this into my arduino program.
+*/
+
 #define DEBUG
 
 #include "02_my_functions.h"
