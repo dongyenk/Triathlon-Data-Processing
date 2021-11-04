@@ -5,6 +5,7 @@
 * if statements, to determine if the other loops should be broken too.
 */
 
+// I learned about importing files in Python, and "#include"ing header files in C++, but haven't experimented with this in Arduino yet.
 int handle_and_return_input(){
   while( !Serial.available() ){ // inverse of Serial.available() evaluates as true
     // while loop of doing nothing, while there's no data in the serial port, and Serial.available() evaluates as false
