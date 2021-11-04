@@ -1,3 +1,11 @@
+/* Like the previous program, this one accepts user input of triathlon data, and outputs useful processed information, as long as the user provides inputs.
+* The main difference is, this program exits once the user enters a negative number for swim.
+* When the program exits, it prints a message about the fastest athelete, only if the user has entered data for atleast 1 athelete.
+* I'm also using preprocessor directives in this version, for importing and debugging purposes.
+* I learned about programs using multiple files, in Python. Then I learned about doing this withC++ header files, but i never knew if this could be done with an Arduino program.
+* Some experimentation has shown that storing custom functions in a header file, works with Arduino.
+*/
+
 #define DEBUG
 
 #include "02_my_functions.h"
