@@ -1,3 +1,9 @@
+/* This program allows the user to input triathlon time result data about atheletes.
+* Once the user has input the hr-min-sec time values for an athelete, the program will output processed data about the athelete, in a nice format.
+* Once data for 1 athelete has been entered, the program prompts for input on the next.
+* In a university class, I made basically the same program, but in my free time, I experimented with, and improved the code.
+*/
+
 int handle_and_return_input(){
   while( !Serial.available() ){ // inverse of Serial.available() evaluates as true
     // while loop of doing nothing, while there's no data in the serial port, and Serial.available() evaluates as false
