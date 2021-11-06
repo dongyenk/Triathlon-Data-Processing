@@ -8,9 +8,13 @@ __**FILE NAMES**__
 File names will begin with 2 numbers.
 E.g. "01_data_processing.ino", will have the oldest code I typed, and just be an improved version of a program I made in a class. And, "17_data_processing.ino", will be a more recent program, that I did in my own time, that uses more of my self study knowledge.
 
-If there's a header (.h) file, with a name beginning with the same 2 numbers as a source file(.ino, .cpp), that source file needs the header file!!.
-		E.g. "02_data_processing.ino" must be in same directory as "02_my_functions.h"
+__**HEADER FILES**__
+----------------------------
+These files have the ".h" suffix. If a source file (.ino or .cpp) uses a header file:
 
+	it's '#include "{header_file_name}"' preprocessor statement will be, will be at the top.
+	Whatever header file is specified here, will be required for the source file to compile.
+I have learned that I used a header file wrong, by defining functions inside it.
 
 __**FILE TYPES**__
 ----------------------
