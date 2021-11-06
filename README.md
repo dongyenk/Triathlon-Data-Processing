@@ -18,7 +18,7 @@ I have learned that I used a header file wrong, by defining functions inside it.
 
 __**FILE TYPES**__
 ----------------------
-.ino files are programs made in the Arduino IDE, that require the IDE, and an Arduino, to compile. The Arduino IDE serial monitor can't handle input, unless "no line ending" is selected.
+.ino files are programs made in the Arduino IDE, that require the IDE, and an Arduino, to compile. The Arduino IDE serial monitor can't handle input, unless the "newline" setting is changed to "no line ending".
 
 __**COMMENTS AT THE TOP OF SOURCE FILES**__
 -------------------------------
