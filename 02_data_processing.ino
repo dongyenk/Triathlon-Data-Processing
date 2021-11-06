@@ -8,7 +8,7 @@
 
 #define DEBUG
 
-#include "02_my_functions.h"
+#include "header_my_functions.h" // this program needs this header file in order to work !! I know I used the header file wrong, but it's good experimentation.
 
 void setup(){  
   Serial.begin(9600);
