@@ -10,7 +10,7 @@ E.g. "01_data_processing.ino", will have the oldest code I typed, and just be an
 
 __**HEADER FILES**__
 ----------------------------
-These files have the ".h" suffix. If a source file (.ino or .cpp) uses a header file:
+These files have the "header_" prefix, and ".h" suffix. If a source file (.ino or .cpp) uses a header file:
 
 	it's '#include "{header_file_name}"' preprocessor statement will be, will be at the top.
 	Whatever header file is specified here, will be required for the source file to compile.
