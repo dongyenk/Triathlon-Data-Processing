@@ -1,7 +1,9 @@
 __**INTRODUCTION**__
 ----------------------
-  This repository contains programs, that receive data input, process the data, then output useful data to the user. Some of the files will be based on work I did in Univerisity classes,
+  This repository contains programs, that receive triathlon data input, process the data, then output useful data to the user. Some of the files will be based on work I did in Univerisity classes,
   but I have improved the code, and done some experimentation.
+  
+  The triathlon_test_data.png has the input values I tested.
   
 __**FOLDERS**__
 ------------------
