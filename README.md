@@ -4,6 +4,7 @@ __**INTRODUCTION**__
   but I have improved the code, and done some experimentation.
   
 __**FOLDERS**__
+------------------
 The 'Arduino' folder contains programs made in the Arduino IDE, and for the Arduino. Programs here are more closely related to things I did in university.
 
 The  'C++' folder will contain functionally similar software, that uses more of my knowledge from self study.
