@@ -2,6 +2,11 @@ __**INTRODUCTION**__
 ----------------------
   This repository contains programs, that receive data input, process the data, then output useful data to the user. Some of the files will be based on work I did in Univerisity classes,
   but I have improved the code, and done some experimentation.
+  
+__**FOLDERS**__
+The 'Arduino' folder contains programs made in the Arduino IDE, and for the Arduino. Programs here are more closely related to things I did in university.
+
+The  'C++' folder will contain functionally similar software, that uses more of my knowledge from self study.
 
 __**FILE NAMES**__
 ---------------------
