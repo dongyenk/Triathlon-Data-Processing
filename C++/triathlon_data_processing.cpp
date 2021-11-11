@@ -2,14 +2,19 @@
 * TODO: implement input handling. Then input validation to be fancy.
 */
 
-//#define DEBUG // The debug_mesages_1 function doesn't work, when char pointer arrays are used.
+#define DEBUG // The debug_mesages_1 function didn't work, when char pointer arrays are used. Fixed it.
 
 #define USE_CHAR_POINTER // define to use arrays of char *, instead of arrays of std::string.
 
 #include <iostream> // for std::cout && std::cin
 #include <string> // for std::string
 
-void debug_messages_1( int four, int three, unsigned long swim_bike_run_total_seconds[], std::string swim_bike_run_total_names[], std::string hr_min_sec_time_types[] ){
+
+#ifdef USE_CHAR_POINTER // Conditionally switches between function declarations, depending on if std::string or char * arrays used,
+ void debug_messages_1( int four, int three, unsigned long swim_bike_run_total_seconds[], char * swim_bike_run_total_names[], char * hr_min_sec_time_types[] ){
+#else
+ void debug_messages_1( int four, int three, unsigned long swim_bike_run_total_seconds[], std::string swim_bike_run_total_names[], std::string hr_min_sec_time_types[] ){
+#endif // USE_CHAR_POINTER
   for( int i = 0; i < four; i ++ ){
     std::cout << swim_bike_run_total_names[ i ] << "\n\t" << swim_bike_run_total_seconds[ i ] << "\n";
     if( i < three ){
@@ -18,6 +23,7 @@ void debug_messages_1( int four, int three, unsigned long swim_bike_run_total_se
   }
   std::cout << "\n";
 }
+
 int handle_and_return_input(){
   int input;
   std::cin >> input;
@@ -66,7 +72,7 @@ int main(){
 
   #ifdef DEBUG
     debug_messages_1( four, three, swim_bike_run_total_seconds, swim_bike_run_total_names, hr_min_sec_time_types );
-  #endif // Function doesn't work if char pointer arrays used.
+  #endif // Function didn't work if char pointer arrays used.
 
   while( 1 ){ //while(true)
     // Each while loop handles input && data for 1 athlete
