@@ -9,7 +9,7 @@ __**FOLDERS**__
 ------------------
 The 'Arduino' folder contains programs made in the Arduino IDE, and for the Arduino. Programs here are more closely related to things I did in university.
 
-The  'C++' folder will contain functionally similar software, that uses more of my knowledge from self study.
+The  'C++' folder will contain basically the same software, that uses more of my knowledge from self study. 
 
 __**FILE NAMES**__
 ---------------------
@@ -27,6 +27,8 @@ I have learned that I used a header file wrong, by defining functions inside it.
 __**FILE TYPES**__
 ----------------------
 .ino files are programs made in the Arduino IDE, that require the IDE, and an Arduino, to compile. The Arduino IDE serial monitor can't handle input, unless the "newline" setting is changed to "no line ending".
+
+.cpp files are C++ programs made in the CodeBlocks IDE.
 
 __**COMMENTS AT THE TOP OF SOURCE FILES**__
 -------------------------------
