@@ -1,3 +1,5 @@
+// THIS CODE IS INCOMPLETE, but nearly complete. I just went back to this program tonight, after c++ self study, to remake a better version.
+
 /* This program takes triathlon data input as long as the user provides.
 * It has proper input validation. If invalid input detected, an error message is displayed to the user and the bad data is handled. This allows input to continue normally after invalid input.
 * Program exits once a negative number entered for an athlete's swim hours.
