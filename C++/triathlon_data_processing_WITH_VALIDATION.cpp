@@ -35,9 +35,7 @@ int handle_and_return_input(){ // seems to work
       continue; // statement not necessary in this specific case
     }
     else if( std::cin ){ // break out of loop and return value, if input valid
-      return user_input; // return should break main loop,
-      std::string removed_line;
-      std::getline( std::cin, removed_line );
+      return user_input; // return should break main loop,      
     }
   }
 }
