@@ -11,6 +11,6 @@ Code is written and tested in the CodeBlocks IDE. Compiling the multiple files w
 
 • triathlon_data_processing_WITH_VALIDATION.cpp -> The single file version.
 
-• The multiple_files_version folder contains the version made up of 2 source files and 1 header file, that only contains function declarations. (From my self study)
+• The multiple_files_version folder contains the version made up of 2 source files and 1 header file with function declarations. (From my self study)
 
 
